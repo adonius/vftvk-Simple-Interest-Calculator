@@ -1,7 +1,7 @@
 function compute()
 {
    var principal = document.getElementById("principal").value;
-   if(p<=0)
+   if(principal<=0)
    {
        alert("enter a positive number greater than zero")
        document.getElementById("prinicipal").focus()
